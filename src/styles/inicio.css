@@ -34,7 +34,7 @@
    padding-top: 5px;
  }
 
- .Foto img{
+ .Foto img, .Foto2 img{
    height: 80%;
    width: 80%;
    padding: 15px;
@@ -46,7 +46,7 @@
    padding-top: 10px;
  }
 
- .Pegatinas a img{
+ .Pegatinas a img, .Pegatinas2 a img{
    width: 100%;
    height: 100%;
    padding: 5px;
@@ -64,4 +64,38 @@
  .Detalles p{
    color: black;
    font-family: "Sriracha", serif;
+ }
+
+ .Foto2 {
+  width: 300px;
+  height: 100%;
+ }
+
+ .InicioC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+
+ .Detalles2{
+    background: none;
+    background-image: url(/src\imagenesPortfolio\hojablanca.png);
+    background-size: 1002px 400px;
+    background-repeat: no-repeat; 
+    background-position: center;
+ }
+
+ .Detalles2 p{
+    color: black;
+    font-family: "Sriracha", serif;
+ }
+
+ .Pegatinas2{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 200px;
  }

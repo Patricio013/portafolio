@@ -12,6 +12,7 @@ import Yo from '../imagenesPortfolio/Yo.jpeg';
 import maletin from '../imagenesPortfolio/maletin.png';
 import PLinkedIn from '../imagenesPortfolio/PLinkedIn.png';
 import PGithub from '../imagenesPortfolio/PGithub.png';
+import hojablanca from '../imagenesPortfolio/hojablanca.png';
 
 export {
     Placarara,
@@ -27,5 +28,6 @@ export {
     Yo,
     maletin,
     PGithub,
-    PLinkedIn
+    PLinkedIn,
+    hojablanca
 };

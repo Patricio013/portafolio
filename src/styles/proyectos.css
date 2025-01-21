@@ -1,6 +1,6 @@
  .Pantalla{
     width: 100%;
-    height: 400px;
+    max-height: 400px;
     background: none;
     background-image: url(/src\imagenesPortfolio\pantalla.png);
     background-size: 1002px 600px;
@@ -18,7 +18,7 @@
 
  .Imagen{
     height: 70%;
-    width: 325px;
+    max-width: 325px;
     overflow: hidden;
  }
 
@@ -40,7 +40,7 @@
  }
 
  .Datos{
-    width: 400px;
+    max-width: 400px;
     word-wrap: break-word; 
     word-break: break-word; 
     white-space: normal;
