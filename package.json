@@ -1,15 +1,19 @@
 {
   "name": "portafolio",
   "private": true,
+  "homepage": "https://patricio013.github.io/portafolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "portafolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
