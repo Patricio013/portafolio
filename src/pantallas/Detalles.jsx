@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/boton.css';
 import '../styles/detalles.css';
+import {Placarara, cuadroJAVA, cuadroCSS, cuadroC, cuadroJavaScript, cuadroMDB, cuadroPYTHON, cuadroRV, cuadroSQL, cuadroHTML} from '../imagenesPortfolio/imagenes'
 
 function Detalles(){
     const navigate = useNavigate();
@@ -9,18 +10,18 @@ function Detalles(){
         <>
         <div className="cuerpo-detalles">
             <div className='Placa'> 
-                <img src='portafolio\imagenesPortfolio\Placarara.png' alt='Placa' />
+                <img src={Placarara} alt='Placa' />
             </div>
             <div className='cuadros'>
-                <img src='portafolio\imagenesPortfolio\cuadroJAVA.png' alt='Java'/>
-                <img src='portafolio\imagenesPortfolio\cuadroSQL.png' alt='MySQL' />
-                <img src='portafolio\imagenesPortfolio\cuadroHTML.png' alt='HTML' />
-                <img src='portafolio\imagenesPortfolio\cuadroRV.png' alt='React+Vite' />
-                <img src='portafolio\imagenesPortfolio\cuadroCSS.png' alt='CSS' />
-                <img src='portafolio\imagenesPortfolio\cuadroC.png' alt='C++' />
-                <img src='portafolio\imagenesPortfolio\cuadroJavaScript.png' alt='JavaScript' />
-                <img src='portafolio\imagenesPortfolio\cuadroPYTHON.png' alt='Python' />
-                <img src='portafolio\imagenesPortfolio\cuadroMDB.png' alt='MongoDB' />
+                <img src={cuadroJAVA} alt='Java'/>
+                <img src={cuadroSQL} alt='MySQL' />
+                <img src={cuadroHTML} alt='HTML' />
+                <img src={cuadroRV} alt='React+Vite' />
+                <img src={cuadroCSS} alt='CSS' />
+                <img src={cuadroC} alt='C++' />
+                <img src={cuadroJavaScript} alt='JavaScript' />
+                <img src={cuadroPYTHON} alt='Python' />
+                <img src={cuadroMDB} alt='MongoDB' />
             </div>
         </div>
         <div className="button-container">

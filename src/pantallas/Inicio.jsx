@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/boton.css';
 import '../styles/inicio.css';
+import {Yo, maletin, PGithub, PLinkedIn} from '../imagenesPortfolio/imagenes'
 
 function Inicio(){
     const navigate = useNavigate();
@@ -10,7 +11,7 @@ function Inicio(){
         <div id='Contenido'>
             <div className='Pizarra'>
                 <div className='Foto'>
-                    <img src='portafolio\imagenesPortfolio\WhatsApp Image 2024-07-16 at 17.33.39.jpeg' alt='Yo' />
+                    <img src={Yo} alt='Yo' />
                 </div>
                 <div className='Detalles'>
                     <p>
@@ -22,16 +23,16 @@ function Inicio(){
                 </div>
                 <div className='Pegatinas'>
                     <a href='https://www.linkedin.com/in/patricio-matias-gomez/' target='_blank'>
-                        <img src='portafolio\imagenesPortfolio\PLinkedIn.png' alt='LinkedIn' />
+                        <img src={PLinkedIn} alt='LinkedIn' />
                     </a>
                     <a href='https://github.com/Patricio013' target='_blank'>
-                        <img src='portafolio\imagenesPortfolio\PGithub.png' alt='Github' />
+                        <img src={PGithub} alt='Github' />
                     </a>
                 </div>
             </div>
             <div id='Maletin'>
                 <a href='portafolio\CV\PatricioMatiasCV.pdf' download="PatricioGomezCV.pdf">
-                    <img src='portafolio\imagenesPortfolio\maletin.png' alt='CV' />
+                    <img src={maletin} alt='CV' />
                 </a>
             </div>
         </div>
