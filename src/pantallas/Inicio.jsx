@@ -10,7 +10,7 @@ function Inicio(){
         <div id='Contenido'>
             <div className='Pizarra'>
                 <div className='Foto'>
-                    <img src='src\imagenesPortfolio\WhatsApp Image 2024-07-16 at 17.33.39.jpeg' alt='Yo' />
+                    <img src='portafolio\imagenesPortfolio\WhatsApp Image 2024-07-16 at 17.33.39.jpeg' alt='Yo' />
                 </div>
                 <div className='Detalles'>
                     <p>
