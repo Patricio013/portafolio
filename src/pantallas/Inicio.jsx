@@ -22,16 +22,16 @@ function Inicio(){
                 </div>
                 <div className='Pegatinas'>
                     <a href='https://www.linkedin.com/in/patricio-matias-gomez/' target='_blank'>
-                        <img src='src\imagenesPortfolio\PLinkedIn.png' alt='LinkedIn' />
+                        <img src='portafolio\imagenesPortfolio\PLinkedIn.png' alt='LinkedIn' />
                     </a>
                     <a href='https://github.com/Patricio013' target='_blank'>
-                        <img src='src\imagenesPortfolio\PGithub.png' alt='Github' />
+                        <img src='portafolio\imagenesPortfolio\PGithub.png' alt='Github' />
                     </a>
                 </div>
             </div>
             <div id='Maletin'>
-                <a href='src\CV\PatricioMatiasCV.pdf' download="PatricioGomezCV.pdf">
-                    <img src='src\imagenesPortfolio\maletin.png' alt='CV' />
+                <a href='portafolio\CV\PatricioMatiasCV.pdf' download="PatricioGomezCV.pdf">
+                    <img src='portafolio\imagenesPortfolio\maletin.png' alt='CV' />
                 </a>
             </div>
         </div>

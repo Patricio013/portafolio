@@ -12,19 +12,19 @@ function Proyectos() {
     {
       titulo: 'Vricko BackEnd',
       descripcion: 'BackEnd de la pagina web Vricko para la compra y venta de muebles. Encargada de conectarse a la base de datos y comunicarse con el FrontEnd.',
-      imagen: 'src/imagenesPortfolio/VrickoB.png',
+      imagen: '/portafolio/imagenesPortfolio/VrickoB.png',
       enlace: 'https://github.com/Patricio013/Ecommerce-BackEnd',
     },
     {
       titulo: 'Vricko FrontEnd',
       descripcion: 'Frontend de la página web Vricko para la compra y venta de muebles, diseñado para ofrecer una experiencia intuitiva y atractiva a compradores y vendedores.',
-      imagen: 'src/imagenesPortfolio/VrickoF.png',
+      imagen: '/portafolio/imagenesPortfolio/VrickoF.png',
       enlace: 'https://github.com/Patricio013/ecommerce-frontend',
     },
     {
       titulo: 'MarketAll',
       descripcion: 'Una API de spring boot que se encuentra conectada a MongoDB y Redis de manera local. Se pueden ingresar datos desde la consola.',
-      imagen: 'src/imagenesPortfolio/MarketAll.png',
+      imagen: '/portafolio/imagenesPortfolio/MarketAll.png',
       enlace: 'https://github.com/Patricio013/MarketAll2',
     },
   ];

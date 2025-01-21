@@ -9,18 +9,18 @@ function Detalles(){
         <>
         <div className="cuerpo-detalles">
             <div className='Placa'> 
-                <img src='src\imagenesPortfolio\Placarara.png' alt='Placa' />
+                <img src='portafolio\imagenesPortfolio\Placarara.png' alt='Placa' />
             </div>
             <div className='cuadros'>
-                <img src='src\imagenesPortfolio\cuadroJAVA.png' alt='Java'/>
-                <img src='src\imagenesPortfolio\cuadroSQL.png' alt='MySQL' />
-                <img src='src\imagenesPortfolio\cuadroHTML.png' alt='HTML' />
-                <img src='src\imagenesPortfolio\cuadroRV.png' alt='React+Vite' />
-                <img src='src\imagenesPortfolio\cuadroCSS.png' alt='CSS' />
-                <img src='src\imagenesPortfolio\cuadroC.png' alt='C++' />
-                <img src='src\imagenesPortfolio\cuadroJavaScript.png' alt='JavaScript' />
-                <img src='src\imagenesPortfolio\cuadroPYTHON.png' alt='Python' />
-                <img src='src\imagenesPortfolio\cuadroMDB.png' alt='MongoDB' />
+                <img src='portafolio\imagenesPortfolio\cuadroJAVA.png' alt='Java'/>
+                <img src='portafolio\imagenesPortfolio\cuadroSQL.png' alt='MySQL' />
+                <img src='portafolio\imagenesPortfolio\cuadroHTML.png' alt='HTML' />
+                <img src='portafolio\imagenesPortfolio\cuadroRV.png' alt='React+Vite' />
+                <img src='portafolio\imagenesPortfolio\cuadroCSS.png' alt='CSS' />
+                <img src='portafolio\imagenesPortfolio\cuadroC.png' alt='C++' />
+                <img src='portafolio\imagenesPortfolio\cuadroJavaScript.png' alt='JavaScript' />
+                <img src='portafolio\imagenesPortfolio\cuadroPYTHON.png' alt='Python' />
+                <img src='portafolio\imagenesPortfolio\cuadroMDB.png' alt='MongoDB' />
             </div>
         </div>
         <div className="button-container">
