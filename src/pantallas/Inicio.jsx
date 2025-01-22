@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/boton.css';
 import '../styles/inicio.css';
-import {Yo, maletin, PGithub, PLinkedIn, hojablanca} from '../imagenesPortfolio/imagenes'
+import {Yo, maletin, PGithub, PLinkedIn} from '../imagenesPortfolio/imagenes'
 import { useMediaQuery } from 'react-responsive';
 
 function Inicio(){

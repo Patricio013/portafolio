@@ -1,15 +1,7 @@
- .De p, .De2 p{
+ .De p{
     font-family: "Sriracha", serif;
     color: black;
     font-size: 30px;
- }
-
- .De2{
-   background: none;
-    background-image: url(/src\imagenesPortfolio\hojablanca.png);
-    background-size: 1002px 400px;
-    background-repeat: no-repeat; 
-    background-position: center;
  }
 
  .Titulo{
@@ -30,5 +22,8 @@
  }
 
  .Sobremi p{
+   font-family: "Sriracha", serif;
    margin: 0%;
+   color: rgb(49, 236, 49);
+   font-size: 30px;
  }

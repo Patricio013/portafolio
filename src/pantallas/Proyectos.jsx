@@ -2,9 +2,12 @@ import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 import '../styles/boton.css';
 import '../styles/proyectos.css';
+import { useMediaQuery } from 'react-responsive';
 
 function Proyectos() {
   const navigate = useNavigate();
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const isTabletOrDesktop = useMediaQuery({ query: "(min-width: 769px)" });
 
   const [canalActual, setCanalActual] = useState(0);
 
@@ -40,48 +43,102 @@ function Proyectos() {
   };
 
   return (
-    <>
-    <div className='Proyectos'>
-      <h1>Proyectos</h1>
-    </div>
-    <div className='Pantalla'>
-      <div className='Contenido'>
-        <div className='Imagen'>
-          <img src={canales[canalActual].imagen} alt={canales[canalActual].titulo}/>
-        </div>
-        <div className='Datos'>
-          <h2 className='Estilo-titulo'>{canales[canalActual].titulo}</h2>
-          <p className='Estilo-texto'>{canales[canalActual].descripcion}</p>
-          <button onClick={() => window.open(canales[canalActual].enlace, '_blank')} className='Estilo-boton'>
-            Ir al proyecto
-          </button>
-        </div>
-      </div>
-      <div>
-        <button onClick={cambiarCanalAnterior} className='Estilo-boton'>
-          <span>❮</span>
-        </button>
-        <button onClick={cambiarCanal} className='Estilo-boton'>
-          <span>❯</span>
-        </button>
-      </div>
-    </div>
-    <div className="button-container">
-        <button className="button-3d" onClick={() => navigate('/sobremi')}>
-          <div className="button-top">
-            <span className="material-icons">❮</span>
+    <div>
+      {isMobile && (
+        <div> 
+          <div className='Proyectos'>
+            <h1>Proyectos</h1>
           </div>
-          <div className="button-bottom"></div>
-          <div className="button-base"></div>
-        </button>
-        <button className="button-3d" onClick={() => navigate('/detalles')}>
-          <div className="button-top">
-            <span className="material-icons">❯</span>
+          <div className='Pantalla2'> 
+            <div className='Imagen2'>
+              <img src={canales[canalActual].imagen} alt={canales[canalActual].titulo}/>
+            </div>
           </div>
-          <div className="button-bottom"></div>
-          <div className="button-base"></div>
-        </button>
-      </div></>
+          <div className='Pantalla2'>
+            <div className='Contenido2'>
+              <div className='Datos'>
+                <h2 className='Estilo-titulo2'>{canales[canalActual].titulo}</h2>
+                <p className='Estilo-texto2'>{canales[canalActual].descripcion}</p>
+              </div>
+            </div>
+          </div>
+          <div className='Pantalla2'>
+            <button onClick={() => window.open(canales[canalActual].enlace, '_blank')} className='Estilo-boton2'>
+              Ir al proyecto
+            </button>
+            <div>
+              <button onClick={cambiarCanalAnterior} className='Estilo-boton2'>
+                <span>❮</span>
+              </button>
+              <button onClick={cambiarCanal} className='Estilo-boton2'>
+                <span>❯</span>
+              </button>
+            </div>
+          </div>
+          <div className="button-container">
+              <button className="button-3d" onClick={() => navigate('/sobremi')}>
+                <div className="button-top">
+                  <span className="material-icons">❮</span>
+                </div>
+                <div className="button-bottom"></div>
+                <div className="button-base"></div>
+              </button>
+              <button className="button-3d" onClick={() => navigate('/detalles')}>
+                <div className="button-top">
+                  <span className="material-icons">❯</span>
+                </div>
+                <div className="button-bottom"></div>
+                <div className="button-base"></div>
+              </button>
+            </div>
+        </div>
+      )}
+      {isTabletOrDesktop && (
+        <div>
+          <div className='Proyectos'>
+            <h1>Proyectos</h1>
+          </div>
+          <div className='Pantalla'>
+            <div className='Contenido'>
+              <div className='Imagen'>
+                <img src={canales[canalActual].imagen} alt={canales[canalActual].titulo}/>
+              </div>
+              <div className='Datos'>
+                <h2 className='Estilo-titulo'>{canales[canalActual].titulo}</h2>
+                <p className='Estilo-texto'>{canales[canalActual].descripcion}</p>
+                <button onClick={() => window.open(canales[canalActual].enlace, '_blank')} className='Estilo-boton'>
+                  Ir al proyecto
+                </button>
+              </div>
+            </div>
+            <div>
+              <button onClick={cambiarCanalAnterior} className='Estilo-boton'>
+                <span>❮</span>
+              </button>
+              <button onClick={cambiarCanal} className='Estilo-boton'>
+                <span>❯</span>
+              </button>
+            </div>
+          </div>
+          <div className="button-container">
+              <button className="button-3d" onClick={() => navigate('/sobremi')}>
+                <div className="button-top">
+                  <span className="material-icons">❮</span>
+                </div>
+                <div className="button-bottom"></div>
+                <div className="button-base"></div>
+              </button>
+              <button className="button-3d" onClick={() => navigate('/detalles')}>
+                <div className="button-top">
+                  <span className="material-icons">❯</span>
+                </div>
+                <div className="button-bottom"></div>
+                <div className="button-base"></div>
+              </button>
+            </div>
+        </div>
+      )}
+    </div>
     )
   }
   
