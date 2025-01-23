@@ -33,7 +33,7 @@ function Inicio(){
                         </a>
                     </div>
                     <div id='Maletin'>
-                        <a href='portafolio\CV\PatricioMatiasCV.pdf' download="PatricioGomezCV.pdf">
+                        <a href='portafolio\CV\PatricioMatiasCV.pdf' target="_blank">
                             <img src={maletin} alt='CV' />
                         </a>
                     </div>
