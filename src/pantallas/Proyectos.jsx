@@ -49,20 +49,16 @@ function Proyectos() {
           <div className='Proyectos'>
             <h1>Proyectos</h1>
           </div>
-          <div className='Pantalla2'> 
+          <div className='Pantalla2'>
             <div className='Imagen2'>
               <img src={canales[canalActual].imagen} alt={canales[canalActual].titulo}/>
             </div>
-          </div>
-          <div className='Pantalla2'>
             <div className='Contenido2'>
               <div className='Datos'>
                 <h2 className='Estilo-titulo2'>{canales[canalActual].titulo}</h2>
                 <p className='Estilo-texto2'>{canales[canalActual].descripcion}</p>
               </div>
             </div>
-          </div>
-          <div className='Pantalla2'>
             <button onClick={() => window.open(canales[canalActual].enlace, '_blank')} className='Estilo-boton2'>
               Ir al proyecto
             </button>
@@ -75,6 +71,7 @@ function Proyectos() {
               </button>
             </div>
           </div>
+            
           <div className="button-container">
               <button className="button-3d" onClick={() => navigate('/sobremi')}>
                 <div className="button-top">
