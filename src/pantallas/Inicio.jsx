@@ -18,7 +18,7 @@ function Inicio(){
                     </div>
                     <div className='Detalles2'>
                         <p>
-                            Mi nombre es Patricio Matias Gomez. Soy un analista en informática traineer que esta iniciando su camino dentro del mundo de programación y dispuesto a seguir brindando y mejorando servicios con cada proyecto. <br />
+                            Mi nombre es Patricio Matias Gomez. Soy un analista en informática que esta iniciando su camino dentro del mundo de programación y dispuesto a seguir brindando y mejorando servicios con cada proyecto. <br />
                             <br />
                             Email: patriciom.gomez@hotmail.com <br />
                             Tel.: +54 9 11 6711-3845
@@ -64,7 +64,7 @@ function Inicio(){
                         </div>
                         <div className='Detalles'>
                             <p>
-                                Mi nombre es Patricio Matias Gomez. Soy un analista en informática traineer que esta iniciando su camino dentro del mundo de programación y dispuesto a seguir brindando y mejorando servicios con cada proyecto. <br />
+                                Mi nombre es Patricio Matias Gomez. Soy un analista en informática que esta iniciando su camino dentro del mundo de programación y dispuesto a seguir brindando y mejorando servicios con cada proyecto. <br />
                                 <br />
                                 Email: patriciom.gomez@hotmail.com <br />
                                 Tel.: +54 9 11 6711-3845
