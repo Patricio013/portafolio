@@ -32,11 +32,11 @@ function Proyectos() {
         enlace: "https://github.com/Patricio013/ecommerce-frontend",
       },
       {
-        titulo: "MarketAll",
+        titulo: "Minijuegos",
         descripcion:
-          "Una API de Spring Boot que se encuentra conectada a MongoDB y Redis de manera local. Se pueden ingresar datos desde la consola.",
-        imagen: "/portafolio/imagenesPortfolio/MarketAll.png",
-        enlace: "https://github.com/Patricio013/MarketAll2",
+          "Pagina web con varios minijuegos como un quizz, juego de la memoria, laberinto y un rompecabezas. Dentro del repositorio esta el link para ir a la pagina.",
+        imagen: "/portafolio/imagenesPortfolio/paginaJuegos.png",
+        enlace: "https://github.com/Patricio013/PaginaJuegos",
       },
     ],
     en: [
@@ -55,11 +55,11 @@ function Proyectos() {
         enlace: "https://github.com/Patricio013/ecommerce-frontend",
       },
       {
-        titulo: "MarketAll",
+        titulo: "Minijuegos",
         descripcion:
-          "A Spring Boot API that connects locally to MongoDB and Redis. Data can be entered from the console.",
-        imagen: "/portafolio/imagenesPortfolio/MarketAll.png",
-        enlace: "https://github.com/Patricio013/MarketAll2",
+          "Website with various mini-games such as a quiz, memory game, maze, and puzzle. The repository contains the link to access the page.",
+        imagen: "/portafolio/imagenesPortfolio/paginaJuegos.png",
+        enlace: "https://github.com/Patricio013/PaginaJuegos",
       },
     ],
   };
@@ -130,7 +130,7 @@ function Proyectos() {
       {isTabletOrDesktop && (
         <div>
           <div className='Proyectos'>
-            <h1>{language === "es" ? "Ir al proyecto" : "Go to project"}</h1>
+            <h1>{language === "es" ? "Proyectos" : "Projects"}</h1>
           </div>
           <div className='Pantalla'>
             <div className='Contenido'>
