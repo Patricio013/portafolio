@@ -16,3 +16,75 @@
     width: 200px;
     height: 100%;
  }
+
+ .antes{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .placa {
+   background: linear-gradient(135deg, #b8860b, #ffd700, #ffcc00);
+   padding: 30px 50px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(255, 223, 0, 0.4);
+   text-align: center;
+   color: #fff;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   position: relative;
+   overflow: hidden;
+   border: 3px solid #e6b800;
+   width: 50%;
+}
+
+.placa::before {
+   content: "";
+   position: absolute;
+   top: -100%;
+   left: -100%;
+   width: 250%;
+   height: 250%;
+   background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 10%, transparent 60%);
+   transform: rotate(30deg);
+   animation: brillo 3s infinite linear;
+}
+
+@keyframes brillo {
+   0% {
+       top: -100%;
+       left: -100%;
+   }
+   100% {
+       top: 100%;
+       left: 100%;
+   }
+}
+
+.placa h1{
+   font-size: 26px;
+   margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+   .placa {
+       padding: 20px 30px;
+       width: 90%;
+   }
+
+   .placa h1{
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 480px) {
+   .placa {
+       padding: 15px 20px;
+       width: 95%;
+   }
+
+   .placa h1{
+      font-size: 18px;
+   }
+}

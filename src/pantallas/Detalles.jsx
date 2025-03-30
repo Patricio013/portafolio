@@ -1,16 +1,26 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/boton.css';
 import '../styles/detalles.css';
-import {Placarara, cuadroJAVA, cuadroCSS, cuadroC, cuadroJavaScript, cuadroMDB, cuadroPYTHON, cuadroRV, cuadroSQL, cuadroHTML} from '../imagenesPortfolio/imagenes'
+import {cuadroJAVA, cuadroCSS, cuadroC, cuadroJavaScript, cuadroMDB, cuadroPYTHON, cuadroRV, cuadroSQL, cuadroHTML} from '../imagenesPortfolio/imagenes'
+import LanguageContext from '../context/LanguageContext';
+import { useContext } from 'react';
 
 function Detalles(){
     const navigate = useNavigate();
+    const { language, setLanguage } = useContext(LanguageContext);
 
     return (
         <>
         <div className="cuerpo-detalles">
-            <div className='Placa'> 
-                <img src={Placarara} alt='Placa' />
+            <div className="language-switch">
+                <button onClick={() => setLanguage(language === 'es' ? 'en' : 'es')}>
+                    {language === 'es' ? 'English' : 'Español'}
+                </button>
+            </div>
+            <div className='antes'>
+                <div className='placa'> 
+                    <h1>{language === "es" ? "Habilidades" : "Skills"}</h1>
+                </div>
             </div>
             <div className='cuadros'>
                 <img src={cuadroJAVA} alt='Java'/>
